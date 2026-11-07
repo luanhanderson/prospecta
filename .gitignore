@@ -1,0 +1,7 @@
+# Dados pessoais e de leads nunca vão para o repositório
+perfil.md
+leads*/
+*.csv
+!templates/*.csv
+abordagens-*.md
+.DS_Store
