@@ -4,4 +4,5 @@ leads*/
 *.csv
 !templates/*.csv
 abordagens-*.md
+campanhas/
 .DS_Store

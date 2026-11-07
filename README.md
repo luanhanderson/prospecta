@@ -18,6 +18,18 @@ Feita para freelancers, agências e pequenas empresas brasileiras: designers, de
 | **3. Mensagens** | Escreve a 1ª mensagem e 2 follow-ups, curtos, verdadeiros e sem cara de robô, respeitando OAB, CFM e outros conselhos |
 | **4. Envio** | Envia pelo **seu** WhatsApp Web no Chrome, **só depois da sua aprovação**, um por um e com limite diário |
 | **5. Acompanhamento** | Mantém uma planilha com status, respostas e a próxima ação de cada lead |
+| **6. Vigia + automações** 🆕 | Confere o WhatsApp a cada 30 min, escreve a resposta no seu estilo e **te avisa no celular para aprovar**. Também cria as respostas rápidas (`/valor`, `/esboco`...) e a mensagem de ausência do WhatsApp Business |
+
+### 🆕 Vigia de respostas
+
+```
+Mac ligado      →  o vigia confere a cada 30 min, escreve a resposta e avisa no seu celular
+Você aprova     →  "envia" e a mensagem sai
+Mac desligado   →  a mensagem de ausência do WhatsApp Business responde por você
+Você online     →  digita "/" e usa as respostas rápidas
+```
+
+O vigia **nunca responde sozinho**: ele lê, sugere e espera o seu ok. Mensagens dos leads são tratadas como dados, nunca como ordens.
 
 ## Instalação
 
@@ -67,9 +79,12 @@ prospecta/
 │   ├── 3-mensagens.md          # modelos por nicho, follow-ups e respostas
 │   ├── 4-envio-whatsapp.md     # envio passo a passo e limites
 │   ├── 5-conformidade.md       # LGPD, conselhos profissionais, termos das plataformas
+│   ├── 6-vigia-e-automacoes.md # vigia de respostas + WhatsApp Business
 │   └── planilha.md             # colunas da planilha de leads
-└── templates/
-    └── leads-modelo.csv
+├── templates/
+│   ├── leads-modelo.csv
+│   └── whatsapp-business-textos.modelo.md
+└── campanhas/                  # seus dados (criado no uso, fora do Git)
 ```
 
 ## Combina bem com
